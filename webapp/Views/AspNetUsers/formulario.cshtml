@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "formulario";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+  //  document.getElementById("btn").disabled = false;
+  
+    $(document).ready(function () {
+  //      $("#cuentas").hide();
+   //     $("#activo").hide();
+    //    $("#pru").hide();
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+          //  $("#cuentas").val(0);
+         //   $("#activo").val(1);
+
+           
+            $(pasword).val("#pas");
+            $(pas2).val("#txtApellido");
+        //    $("#nomb").val("#txtNombre");
+         //   $("#nomb").val($("#txtNombre").val());
+            $(pasword).val($("#pas").val());
+            var marcado = $('#txtNombre').val();
+            var pas2 = $('#txtApellido').val();
+            var pasword = $('#pas').val();
+
+
+         //   alert("se tiene las contraseñas " + pasword + marcado + ":" + pas2 + "igual" + pasword);
+            if (pas2 == pasword)
+            {
+         //       alert("pasword son iguales ");
+                $("#btn").prop('disabled', false);
+            }
+            else 
+            {
+
+     //           alert("pasword no  son iguales ");
+            }
+           
+             /*   long = parseInt(10);
+                var caracteres = "abcdefghijkmnpqrtuvwxyzABCDEFGHIJKLMNPQRTUVWXYZ2346789";
+                var contraseña = "";
+                for (i = 0; i < long; i++) contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+*/
+           
+
+              // $("#phash").val(exampleInputPassword1);
+         //      $("#phash").val($("#exampleInputPassword1").val());
+
+        });
+
+
+      
+
+
+    });
+
+</script>
+
+<h2 class="h2 , text-center"> Restablcer Clave </h2>
+<!--
+<form action="../AspNetUsers/Guardar" method="POST">
+    Apellido: @Html.TextBox("txtApellido")
+    Nombre: @Html.TextBox("txtNombre")
+    <input type="submit" value="Guardar" />
+    <button class="btn btn-primary" id="btn" type="submit">
+        <span class="glyphicon glyphicon-save-file pull-left" title="Create"> Create</span>
+    </button>
+</form>
+    -->
+
+<form action="../AspNetUsers/Guardar" method="POST">
+
+   
+    
+    <div class="form-group">
+        <label for="inputName" class="control-label col-xs-2">Correo:</label>
+        <div class="col-xs-10">
+            <input type="email" id="txtNombre" name="txtNombre" class="form-control" placeholder="Correo">
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail" class="control-label col-xs-2">Password:</label>
+        <div class="col-xs-10">
+            <input type="password" id="pas" name="pas"  value=" " class="form-control" placeholder="Pasaword">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail" class="control-label col-xs-2">Confirm password:</label>
+        <div class="col-xs-10">
+            <input type="password" id="txtApellido" name="txtApellido"  class="form-control" placeholder="Confirm Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <button class="btn btn-primary" id="btn" type="submit">
+                <span class="glyphicon glyphicon-save-file pull-left" title="Reset"> Reset</span>
+            </button>
+           
+        </div>
+    </div>
+</form>

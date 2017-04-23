@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SmartAdminMvcModel1StoreContainer" CdmEntityContainer="SmartAdminMvcEntities1">
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="id_rol" ColumnName="id_rol" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="cuenta" ColumnName="cuenta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="SmartAdminMvcModel1.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Calficacion">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Calficacion">
+        <MappingFragment StoreEntitySet="Calficacion">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_calificacion" ColumnName="id_calificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Categoria">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="colaborador_depto">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.colaborador_depto">
+        <MappingFragment StoreEntitySet="colaborador_depto">
+          <ScalarProperty Name="fec_fin_trabajo" ColumnName="fec_fin_trabajo" />
+          <ScalarProperty Name="fec_ini_trabajo" ColumnName="fec_ini_trabajo" />
+          <ScalarProperty Name="depto_id" ColumnName="depto_id" />
+          <ScalarProperty Name="colaborador_id" ColumnName="colaborador_id" />
+          <ScalarProperty Name="id_col_depto" ColumnName="id_col_depto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departamento">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Departamento">
+        <MappingFragment StoreEntitySet="Departamento">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_depto" ColumnName="id_depto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recurso">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Recurso">
+        <MappingFragment StoreEntitySet="Recurso">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="fec_adquisicion" ColumnName="fec_adquisicion" />
+          <ScalarProperty Name="modelo" ColumnName="modelo" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="categoria_id" ColumnName="categoria_id" />
+          <ScalarProperty Name="depto_id" ColumnName="depto_id" />
+          <ScalarProperty Name="id_recurso" ColumnName="id_recurso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="verificar" ColumnName="verificar" />
+          <ScalarProperty Name="cerrado" ColumnName="cerrado" />
+          <ScalarProperty Name="aceptar" ColumnName="aceptar" />
+          <ScalarProperty Name="acti_supervisor" ColumnName="acti_supervisor" />
+          <ScalarProperty Name="acti_encargado" ColumnName="acti_encargado" />
+          <ScalarProperty Name="solucion" ColumnName="solucion" />
+          <ScalarProperty Name="imagen" ColumnName="imagen" />
+          <ScalarProperty Name="id_calificacion" ColumnName="id_calificacion" />
+          <ScalarProperty Name="obsevacion" ColumnName="obsevacion" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="supervisor" ColumnName="supervisor" />
+          <ScalarProperty Name="encargado" ColumnName="encargado" />
+          <ScalarProperty Name="estado_ticket" ColumnName="estado_ticket" />
+          <ScalarProperty Name="fech_fin" ColumnName="fech_fin" />
+          <ScalarProperty Name="fech_asignacion" ColumnName="fech_asignacion" />
+          <ScalarProperty Name="fech_emision" ColumnName="fech_emision" />
+          <ScalarProperty Name="descp_falla" ColumnName="descp_falla" />
+          <ScalarProperty Name="id_urgencia" ColumnName="id_urgencia" />
+          <ScalarProperty Name="id_recurso" ColumnName="id_recurso" />
+          <ScalarProperty Name="id_colaborador" ColumnName="id_colaborador" />
+          <ScalarProperty Name="id_ticket" ColumnName="id_ticket" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urgencia">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.Urgencia">
+        <MappingFragment StoreEntitySet="Urgencia">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_prioridad" ColumnName="id_prioridad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_ticket_usuario" FunctionName="SmartAdminMvcModel1.Store.sp_ticket_usuario" />
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="colaborador_depar">
+      <EntityTypeMapping TypeName="SmartAdminMvcModel1.colaborador_depar">
+        <MappingFragment StoreEntitySet="colaborador_depar">
+          <ScalarProperty Name="fec_fin_trabajo" ColumnName="fec_fin_trabajo" />
+          <ScalarProperty Name="fec_ini_trabajo" ColumnName="fec_ini_trabajo" />
+          <ScalarProperty Name="depto_id" ColumnName="depto_id" />
+          <ScalarProperty Name="colaborador_id" ColumnName="colaborador_id" />
+          <ScalarProperty Name="id_col_depto" ColumnName="id_col_depto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,138 @@
+﻿@model SmartAdminMvc.Models.Ticket
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ticket</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.descp_falla)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descp_falla)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fech_emision)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fech_emision)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fech_asignacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fech_asignacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fech_fin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fech_fin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado_ticket)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado_ticket)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.comentario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.comentario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.obsevacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.obsevacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.imagen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.imagen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.solucion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.solucion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AspNetUsers1.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers1.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AspNetUsers2.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AspNetUsers2.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Calficacion.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Calficacion.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Recurso.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Recurso.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Urgencia.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Urgencia.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_ticket }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

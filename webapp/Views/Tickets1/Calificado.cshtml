@@ -1,0 +1,298 @@
+﻿
+@{
+    ViewBag.Title = "Calificado";
+}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#admin").hide();
+        $("#bien").hide();
+        var marcado2 = $('#txtNombre').val();
+        //  alert("es undefinido  " + marcado2);
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+
+
+
+            ;
+            var marcado = $('#txtNombre').val();
+
+            if ($("#txtNombre").val().length > 1) {
+                $("#btn").prop('disabled', false);
+
+            }
+
+
+        });
+
+
+        var ThematicName = '@ViewBag.resultado';
+        //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1) {
+
+            $("#admin").show();
+        }
+
+        else {
+            $("#bien").show();
+
+        }
+
+
+    });
+
+</script>
+
+
+<div id="bien">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+</div>
+
+
+<div id="admin">
+    <h2 class="h2 , text-center">Solucionados</h2>
+
+
+    @model PagedList.IPagedList<SmartAdminMvc.Models.Ticket>
+    @using PagedList.Mvc ;
+    <style>
+        #div1 {
+            /*border: 2px solid #CCC;*/
+            padding: 1em;
+            margin: 1em 0 1em 1em;
+            width: 300px;
+        }
+    </style>
+
+
+    <div class="table-responsive">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.LabelFor(model => model.First().descp_falla, "Falla", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+                <th>
+                    @Html.LabelFor(model => model.First().fech_emision, "emision", htmlAttributes: new { @class = "control-label col-md-2" })
+                </th>
+
+                <th>
+
+                    @Html.LabelFor(model => model.First().fech_asignacion, "asignado", htmlAttributes: new { @class = "control-label col-md-2" })
+
+                </th>
+
+                @*
+                    <th>
+                        @Html.DisplayNameFor(model => model.fech_fin)
+                    </th>
+                *@
+                <th>
+                    @Html.LabelFor(model => model.First().estado_ticket, "estado", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+                @*
+                    <th>
+                        @Html.DisplayNameFor(model => model.comentario)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.obsevacion)
+                    </th>
+                *@
+                @*
+                    <th>
+                        @Html.LabelFor(model => model.First().imagen, "imagen", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                    </th>
+                *@
+                @*
+                    <th>
+                        @Html.DisplayNameFor(model => model.solucion)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.acti_encargado)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.acti_supervisor)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.aceptar)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.cerrado)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.verificar)
+                    </th>
+                *@
+                <th>
+                    @Html.LabelFor(model => model.First().AspNetUsers.Email, "colaborador", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+
+                <th>
+                    @Html.LabelFor(model => model.First().AspNetUsers1, "encargado", htmlAttributes: new { @class = "control-label col-md-2" })
+
+                </th>
+                <th>
+                    @Html.LabelFor(model => model.First().AspNetUsers2, "supervisor", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+
+                <th>
+                    @Html.LabelFor(model => model.First().Calficacion.nombre, "Nota", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+
+                <th>
+                    @Html.LabelFor(model => model.First().Recurso.nombre, "recurso", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+                <th>
+                    @Html.LabelFor(model => model.First().Urgencia.nombre, "urgencia", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.descp_falla)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fech_emision)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fech_asignacion)
+                    </td>
+                    @*                    <td>
+
+                        @Html.DisplayFor(modelItem => item.fech_fin)
+
+                                        </td>
+                    *@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estado_ticket)
+                    </td>
+                    @*
+                        <td>
+                            @Html.DisplayFor(modelItem => item.comentario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.obsevacion)
+                        </td>
+                    *@
+                    @*
+                        <td>
+                            @Html.DisplayFor(modelItem => item.imagen)
+                        </td>
+                    *@
+                    @*
+                        <td>
+                            @Html.DisplayFor(modelItem => item.solucion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.acti_encargado)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.acti_supervisor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.aceptar)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.cerrado)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.verificar)
+                        </td>
+                    *@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AspNetUsers1.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AspNetUsers2.Email)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Calficacion.nombre)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Recurso.nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Urgencia.nombre)
+                    </td>
+                    <td>
+
+                        @*         @Html.ActionLink(" ", "Nota", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-success glyphicon glyphicon-pencil ", title = "Editar!" }) &nbsp;
+                        *@       @*     @Html.ActionLink(" ", "Details", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-info  glyphicon glyphicon-exclamation-sign ", title = "Mostrar!" }) &nbsp;
+                        *@    @*  @Html.ActionLink(" ", "Delete", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-danger glyphicon glyphicon-trash", title = "Eliminar!" })
+                        *@
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+
+    <br />
+
+    <p>
+
+        <div id="div1">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, pagesize = Model.PageSize }))
+            &nbsp;&nbsp;&nbsp;&nbsp;  showing @Model.FirstItemOnPage to @Model.LastItemOnPage of @Model.TotalItemCount ? Tickets
+
+
+        </div>
+
+</div>

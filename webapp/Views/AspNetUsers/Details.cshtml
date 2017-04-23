@@ -1,0 +1,230 @@
+﻿@model SmartAdminMvc.Models.AspNetUsers
+
+@{
+    ViewBag.Title = "Details";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#admin").hide();
+        $("#bien").hide();
+        var marcado2 = $('#txtNombre').val();
+      //  alert("es undefinido  " + marcado2);
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+
+
+
+           ;
+            var marcado = $('#txtNombre').val();
+
+            if ($("#txtNombre").val().length > 1)
+            {
+                $("#btn").prop('disabled', false);
+
+            }
+
+
+        });
+
+
+        var ThematicName = '@ViewBag.resultado';
+        //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1) {
+
+            $("#admin").show();
+        }
+
+        else {
+            $("#bien").show();
+
+        }
+
+
+    });
+
+</script>
+
+
+
+<div id="bien">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+</div>
+
+
+    <div id="admin">
+    <h2 class="h2 , text-center">Details</h2>
+
+    <div>
+        <h4 class="h4 , text-center">Usuarios</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.EmailConfirmed)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EmailConfirmed)
+                </dd>
+            *@
+            @*        <dt>
+                    @Html.DisplayNameFor(model => model.PasswordHash)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PasswordHash)
+                </dd>
+            *@
+
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.SecurityStamp)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.SecurityStamp)
+                </dd>
+            *@
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.PhoneNumberConfirmed)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PhoneNumberConfirmed)
+                </dd>
+            *@
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.TwoFactorEnabled)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TwoFactorEnabled)
+                </dd>
+            *@
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.LockoutEndDateUtc)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.LockoutEndDateUtc)
+                </dd>
+            *@
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.LockoutEnabled)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.LockoutEnabled)
+                </dd>
+            *@
+            @*
+                <dt>
+                    @Html.DisplayNameFor(model => model.AccessFailedCount)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.AccessFailedCount)
+                </dd>
+            *@
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Activo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Activo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cuenta)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.cuenta)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.nombre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.apellido)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.apellido)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AspNetRoles1.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AspNetRoles1.Name)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink(" ", "Edit", new { id = Model.Id }, new { id = Model.Id, @class = "btn btn-success glyphicon glyphicon-pencil ", title = "Editar!" }) &nbsp;
+        @Html.ActionLink(" Regresar", "Index", null, new { @class = "btn btn-info glyphicon glyphicon-circle-arrow-left", title = "Regresar!" })
+    </p>
+</div>

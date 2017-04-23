@@ -1,0 +1,337 @@
+﻿@model SmartAdminMvc.Models.AspNetUsers
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#admin").hide();
+        $("#bien").hide();
+        var marcado2 = $('#txtNombre').val();
+      //  alert("es undefinido  " + marcado2);
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+
+
+
+           ;
+            var marcado = $('#txtNombre').val();
+
+            if ($("#txtNombre").val().length > 1)
+            {
+                $("#btn").prop('disabled', false);
+
+            }
+
+
+        });
+
+
+        var ThematicName = '@ViewBag.resultado';
+        //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1) {
+
+            $("#admin").show();
+        }
+
+        else {
+            $("#bien").show();
+
+        }
+
+
+    });
+
+</script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+  //      $("#cuentas").hide();
+   //     $("#activo").hide();
+    //    $("#pru").hide();
+        $("#phash").hide();
+        $("#past").mouseover(function () {
+            $("#pru").val("18272ba5-bf6a-48a7-8116-3ac34dbb7f38");
+          //  $("#cuentas").val(0);
+         //   $("#activo").val(1);
+
+
+
+
+                long = parseInt(10);
+                var caracteres = "abcdefghijkmnpqrtuvwxyzABCDEFGHIJKLMNPQRTUVWXYZ2346789";
+                var contraseña = "";
+                for (i = 0; i < long; i++) contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+
+                $("#past").val(contraseña);
+
+              // $("#phash").val(exampleInputPassword1);
+               $("#phash").val($("#exampleInputPassword1").val());
+
+        });
+
+   //     $("#phash").val(exampleInputPassword1);
+        $("#phash").val($("#exampleInputPassword1").val());
+
+
+        $("#btn").mouseover(function () {
+
+            $("#phash").val($("#exampleInputPassword1").val());
+
+
+            $("#pru").val("18272ba5-bf6a-48a7-8116-3ac34dbb7f38");
+    //        $("#cuentas").val(0);
+     //       $("#activo").val(1);
+
+
+
+
+            long = parseInt(10);
+            var caracteres = "abcdefghijkmnpqrtuvwxyzABCDEFGHIJKLMNPQRTUVWXYZ2346789";
+            var contraseña = "";
+            for (i = 0; i < long; i++) contraseña += caracteres.charAt(Math.floor(Math.random() * caracteres.length));
+
+            $("#past").val(contraseña);
+
+        });
+
+
+
+    });
+
+</script>
+
+<div id="bien">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+</div>
+
+<div id="admin">
+    <h2 class="h2 , text-center">Create</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 class="h4 , text-center">Usuarios</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <p>@Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control ", id = "past", @readonly = "readonly" } })</p>
+
+                    @*
+                        @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
+                    *@              @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmailConfirmed, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.EmailConfirmed)
+                            @Html.ValidationMessageFor(model => model.EmailConfirmed, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="control-label col-md-2">Password</label>
+
+                @*            @Html.LabelFor(model => model.PasswordHash, htmlAttributes: new { @class = "control-label col-md-2" })
+                *@          <div class="col-md-10">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    @Html.PasswordFor(model => model.PasswordHash, new { htmlAttributes = new { @class = "form-control" }, id = "phash" })
+
+
+                    @*  @Html.EditorFor(model => model.PasswordHash, new { htmlAttributes = new { @class = "form-control", id = "phash" } })
+                    *@  @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="control-label col-md-2">Seguridad</label>
+
+                @*
+                    @Html.LabelFor(model => model.SecurityStamp, htmlAttributes: new { @class = "control-label col-md-2" })
+                *@<div class="col-md-10">
+                    <p>@Html.EditorFor(model => model.SecurityStamp, new { htmlAttributes = new { @class = "form-control , pass", id = "pru", @readonly = "readonly" } })</p>
+                    @*
+                        @Html.EditorFor(model => model.SecurityStamp, new { htmlAttributes = new { @class = "form-control" } })
+                    *@ @Html.ValidationMessageFor(model => model.SecurityStamp, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+
+                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.PhoneNumberConfirmed, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.PhoneNumberConfirmed)
+                            @Html.ValidationMessageFor(model => model.PhoneNumberConfirmed, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TwoFactorEnabled, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.TwoFactorEnabled)
+                            @Html.ValidationMessageFor(model => model.TwoFactorEnabled, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.LockoutEndDateUtc, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.LockoutEndDateUtc, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.LockoutEndDateUtc, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.LockoutEnabled, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.LockoutEnabled)
+                            @Html.ValidationMessageFor(model => model.LockoutEnabled, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.AccessFailedCount, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.AccessFailedCount, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.AccessFailedCount, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Activo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+
+                    <div class="checkbox  ">
+                        @Html.EditorFor(model => model.Activo, new { htmlAttributes = new { @class = "form-control , selectpicker , data-style = btn-primary" } })
+                        @Html.ValidationMessageFor(model => model.Activo, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.cuenta, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.cuenta, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.cuenta, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.apellido, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.apellido, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.apellido, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*  @Html.LabelFor(model => model.id_rol, "id_rol", htmlAttributes: new { @class = "control-label col-md-2" })
+                *@
+                <label for="exampleInputPassword1" class="control-label col-md-2">Rol</label>
+
+                <div class="col-md-10 ">
+
+                    @Html.DropDownList("id_rol", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary" })
+
+                    @Html.ValidationMessageFor(model => model.id_rol, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button class="btn btn-primary" id="btn" type="submit">
+                        <span class="glyphicon glyphicon-save-file pull-left" title="Create"> Create</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink(" Regresar", "Index", null, new { @class = "btn btn-info glyphicon glyphicon-circle-arrow-left", title = "Regresar!" })
+    </div>
+
+</div>

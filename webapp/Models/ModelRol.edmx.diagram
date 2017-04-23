@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bbdc6d2a36944199851fd287de1fc2ee" Name="Diagram1">
+        <EntityTypeShape EntityType="SmartAdminMvcModel.AspNetRoles" Width="1.5" PointX="0.625" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartAdminMvcModel.C__MigrationHistory" Width="1.5" PointX="3.75" PointY="3.75" />
+        <EntityTypeShape EntityType="SmartAdminMvcModel.AspNetUserClaims" Width="1.5" PointX="4.875" PointY="7.75" />
+        <EntityTypeShape EntityType="SmartAdminMvcModel.AspNetUserLogins" Width="2" PointX="5" PointY="10.5" />
+        <EntityTypeShape EntityType="SmartAdminMvcModel.AspNetUsers" Width="1.5" PointX="2.625" PointY="7.75" />
+        <AssociationConnector Association="SmartAdminMvcModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SmartAdminMvcModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="SmartAdminMvcModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

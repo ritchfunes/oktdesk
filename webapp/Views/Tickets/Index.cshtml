@@ -1,0 +1,190 @@
+﻿@*
+    @model IEnumerable<SmartAdminMvc.Models.Ticket>
+*@
+@{
+    ViewBag.Title = "Index";
+}
+
+@model PagedList.IPagedList<SmartAdminMvc.Models.Ticket>
+@using PagedList.Mvc ;
+<style>
+    #div1 {
+        /*border: 2px solid #CCC;*/
+        padding: 1em;
+        margin: 1em 0 1em 1em;
+        width: 300px;
+    }
+</style>
+
+<h2 class="h2 , text-center">Index</h2>
+
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.First().descp_falla, "Falla", htmlAttributes: new { @class = "control-label col-md-2" })
+
+@*
+                @Html.DisplayNameFor(model => model.First().descp_falla)
+  *@          </th>
+            <th>
+                @Html.LabelFor(model => model.First().fech_emision, "emision", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+         @*       @Html.DisplayNameFor(model => model.First().fech_emision)
+        *@            </th>
+            @*
+                <th>
+                    @Html.DisplayNameFor(model => model.fech_asignacion)
+                </th>
+            *@
+            @*
+                <th>
+                    @Html.DisplayNameFor(model => model.fech_fin)
+                </th>
+            *@
+            <th>
+                @Html.LabelFor(model => model.First().estado_ticket, "estado", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+        @*        @Html.DisplayNameFor(model => model.First().estado_ticket)
+          *@  </th>
+            @*
+                <th>
+                    @Html.DisplayNameFor(model => model.comentario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.obsevacion)
+                </th>
+            *@
+            <th>
+                @Html.LabelFor(model => model.First().imagen, "imagen", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+     @*           @Html.DisplayNameFor(model => model.First().imagen)
+       *@     </th>
+            @*
+                <th>
+                    @Html.DisplayNameFor(model => model.solucion)
+                </th>
+            *@
+
+            <th>
+                @Html.LabelFor(model => model.First().AspNetUsers, "Colaborador", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+         @*       @Html.DisplayNameFor(model => model.First().AspNetUsers.Email)
+           *@ </th>
+            @*
+                <th>
+                    @Html.DisplayNameFor(model => model.AspNetUsers1.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AspNetUsers2.Email)
+                </th>
+            *@
+            @*            <th>
+                    @Html.DisplayNameFor(model => model.Calficacion.nombre)
+                </th>
+            *@
+
+            <th>
+                @Html.LabelFor(model => model.First().Recurso.nombre, "Recurso", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+@*                @Html.DisplayNameFor(model => model.First().Recurso.nombre)
+*@           </th>
+            <th>
+                @Html.LabelFor(model => model.First().Urgencia.nombre, "Urgencia", htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+   @*             @Html.DisplayNameFor(model => model.First().Urgencia.nombre)
+     *@       </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.descp_falla)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fech_emision)
+                </td>
+                @*
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fech_asignacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fech_fin)
+                    </td>
+                *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.estado_ticket)
+                </td>
+                @*
+                    <td>
+                        @Html.DisplayFor(modelItem => item.comentario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.obsevacion)
+                    </td>
+                *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.imagen)
+                </td>
+                @*
+    <td>
+        @Html.DisplayFor(modelItem => item.solucion)
+    </td>
+                *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+                </td>
+                @*
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AspNetUsers1.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AspNetUsers2.Email)
+                    </td>
+                *@
+                @*
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Calficacion.nombre)
+                    </td>
+                *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Recurso.nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Urgencia.nombre)
+                </td>
+                <td>
+                    @Html.ActionLink(" ", "Edit", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-success glyphicon glyphicon-pencil ", title = "Editar!" }) &nbsp;
+                    @Html.ActionLink(" ", "Details", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-info  glyphicon glyphicon-exclamation-sign ", title = "Mostrar!" }) &nbsp;
+                    @Html.ActionLink(" ", "Delete", new { id = item.id_ticket }, new { id = item.id_ticket, @class = "btn btn-danger glyphicon glyphicon-trash", title = "Eliminar!" })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+
+<br />
+
+<p>
+
+    <div id="div1">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, pagesize = Model.PageSize }))
+        &nbsp;&nbsp;&nbsp;&nbsp;  showing @Model.FirstItemOnPage to @Model.LastItemOnPage of @Model.TotalItemCount ? Tickets
+
+
+    </div>

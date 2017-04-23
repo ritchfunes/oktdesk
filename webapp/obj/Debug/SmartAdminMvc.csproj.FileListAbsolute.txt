@@ -1,0 +1,295 @@
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\mscorlib.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\es\mscorlib.resources.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\normidna.nlp
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\normnfc.nlp
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\normnfd.nlp
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\normnfkc.nlp
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\bin\normnfkd.nlp
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\developer2\Desktop\ritchie\proyecto desktop\DEVELOPER\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+H:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+H:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+H:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+H:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+H:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+F:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+F:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+F:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+F:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+F:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+F:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+F:\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+F:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.dll
+F:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.xml
+F:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+H:\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+H:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.dll
+H:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.xml
+H:\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\31 marzo 17\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.config
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\WebGrease.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Newtonsoft.Json.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\PagedList.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Helpers.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Mvc.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Optimization.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\obj\Debug\SmartAdminMvc.csprojResolveAssemblyReference.cache
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Net.Http.Formatting.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Http.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Http.WebHost.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Net.Http.Formatting.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Http.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\System.Web.Http.WebHost.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Owin.dll
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RitchieCristopher\Documents\clases\practica fase 1\pro 3\03 abril 2017\ASP.NetMVC5_Full_Version\webapp\bin\Microsoft.Owin.Security.OAuth.xml

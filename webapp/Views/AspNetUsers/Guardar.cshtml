@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Guardar";
+
+}
+
+<h2 class="h2 , text-center">Actualizado</h2>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+  //  document.getElementById("btn").disabled = false;
+
+    $(document).ready(function () {
+        var marcado2 = $('#txtNombre').val();
+      //  alert("es undefinido  " + marcado2);
+        var ThematicName = '@ViewBag.resultado';
+     //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1 )
+        {
+            $("#mal").hide();
+        }
+        else
+        {
+            $("#bien").hide();
+        }
+
+    });
+
+</script>
+
+
+<h4 class="h4 , text-center"> @ViewBag.Nombres </h4>
+<br />
+<div class="alert alert-success" role="alert" id="bien">
+    <strong>Realizo con exito!</strong> Se Actualizo la contraseña exitosamente.
+    @ViewBag.Apellido
+</div>
+<br />
+<br />
+<div class="alert alert-danger" role="alert" id="mal">
+    <strong>Oh snap!</strong> Fallo la actualizacion de la clave por favor intente otra vez.
+    @ViewBag.Apellido
+</div>
+
+
+<form action="../Home/Index" method="POST">
+
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+            <button class="btn btn-primary" id="btn" type="submit">
+                <span class="glyphicon glyphicon-save-file pull-left" title="Home"> Home</span>
+            </button>
+
+        </div>
+    </div>
+</form>

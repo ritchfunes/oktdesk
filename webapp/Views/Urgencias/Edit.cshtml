@@ -1,0 +1,181 @@
+﻿@model SmartAdminMvc.Models.Urgencia
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+      $("#acti").hide();
+
+
+        $("#chequear").click(function () {
+
+           var marcado = $('#acti:checked').val()
+       //    alert("el depaertamento esta activo " + marcado);
+         /*
+           var marca = true;
+           if (marcado == marca)
+           {
+               alert("los dos regresan el mismo resultado  ");
+
+
+           }
+           */
+           if (marcado === "undefined") {
+               $("#acti").prop("checked", false);
+            //   alert("el depaertamento esta inactivo ");
+
+           }
+           else if (marcado == "true") {
+               $("#acti").prop("checked", false);
+            //   alert("el depaertamento esta inactivo ");
+
+           }
+           else {
+               $("#acti").prop("checked", true);
+            //   alert("el depaertamento esta activo ");
+
+           }
+
+        });
+    });
+
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#admin").hide();
+        $("#bien").hide();
+        var marcado2 = $('#txtNombre').val();
+      //  alert("es undefinido  " + marcado2);
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+
+
+
+           ;
+            var marcado = $('#txtNombre').val();
+
+            if ($("#txtNombre").val().length > 1)
+            {
+                $("#btn").prop('disabled', false);
+
+            }
+
+
+        });
+
+
+        var ThematicName = '@ViewBag.resultado';
+        //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1) {
+
+            $("#admin").show();
+        }
+
+        else {
+            $("#bien").show();
+
+        }
+
+
+    });
+
+</script>
+
+
+<div id="bien">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+</div>
+
+<div id="admin">
+
+    <h2 class="h2 , text-center">Editar</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 class="h4 , text-center">Urgencia</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.id_prioridad)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.activo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class="checkbox" data-toggle="toggle" id="chequear">
+                        <input type="checkbox" checked data-toggle="toggle">
+
+                        @Html.ValidationMessageFor(model => model.activo, "", new { @class = "text-danger" })
+                    </div>
+                    <div id="a">
+                        @Html.EditorFor(model => model.activo, new { htmlAttributes = new { @class = "form-control", id = "acti" } })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button class="btn btn-success " type="submit">
+                        <span class="glyphicon glyphicon-save-file pull-left" title="Save"> Save</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink(" Regresar", "Index", null, new { @class = "btn btn-info glyphicon glyphicon-circle-arrow-left", title = "Regresar!" })
+    </div>
+
+
+</div>

@@ -1,0 +1,321 @@
+﻿@model SmartAdminMvc.Models.Ticket
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+      $("#acti").hide();
+
+      $("#encargado").hide();
+      $("#supervisor").hide();
+      $("#descripcion").hide();
+      $("#estado").val("Asignar");
+
+      $("#btn").mouseover(function () {
+            $("#descripcion").val($("#comment").val());
+
+
+        });
+    });
+
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#admin").hide();
+        $("#bien").hide();
+        var marcado2 = $('#txtNombre').val();
+      //  alert("es undefinido  " + marcado2);
+        $("#btn").prop('disabled', true);
+        $("#btn").mouseover(function () {
+
+
+
+           ;
+            var marcado = $('#txtNombre').val();
+
+            if ($("#txtNombre").val().length > 1)
+            {
+                $("#btn").prop('disabled', false);
+
+            }
+
+
+        });
+
+
+        var ThematicName = '@ViewBag.resultado';
+        //   alert("es undefinido  " + ThematicName);
+
+        if (ThematicName == 1) {
+
+            $("#admin").show();
+        }
+
+        else {
+            $("#bien").show();
+
+        }
+
+
+    });
+
+</script>
+
+
+<div id="bien">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="alert alert-danger">
+        <strong>Denegado!</strong> este usuario no puede acceder a esta informacion.
+    </div>
+</div>
+
+<div id="admin">
+    <h2 class="h2 , text-center">Create</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 class="h4 , text-center">Ticket</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.id_colaborador, "colaborador", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("id_colaborador", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary" })
+                    @Html.ValidationMessageFor(model => model.id_colaborador, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.id_recurso, "recurso", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("id_recurso", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary" })
+                    @Html.ValidationMessageFor(model => model.id_recurso, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.id_urgencia, "urgencia", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("id_urgencia", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary" })
+                    @Html.ValidationMessageFor(model => model.id_urgencia, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.descp_falla, "falla", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.descp_falla, new { htmlAttributes = new { @class = "form-control", id = "descripcion" } })
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+
+                    @Html.ValidationMessageFor(model => model.descp_falla, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fech_emision, "emision", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.fech_emision, new { @class = "form-control datepicker", placeholder = "Ingrese la fecha " })
+
+
+                    @*     @Html.EditorFor(model => model.fech_emision, new { htmlAttributes = new { @class = "form-control" } })
+                    *@    @Html.ValidationMessageFor(model => model.fech_emision, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.fech_asignacion, "asignacion",  htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.fech_asignacion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.fech_asignacion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.fech_fin, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.fech_fin, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.fech_fin, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.estado_ticket, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.estado_ticket, new { htmlAttributes = new { @class = "form-control", id = "estado", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.estado_ticket, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*     @Html.LabelFor(model => model.encargado, "encargado", htmlAttributes: new { @class = "control-label col-md-2" })
+                *@   <div class="col-md-10">
+                    @Html.DropDownList("encargado", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary", id = "encargado" })
+                    @Html.ValidationMessageFor(model => model.encargado, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*      @Html.LabelFor(model => model.supervisor, "supervisor", htmlAttributes: new { @class = "control-label col-md-2" })
+                *@    <div class="col-md-10">
+                    @Html.DropDownList("supervisor", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary", id = "supervisor" })
+                    @Html.ValidationMessageFor(model => model.supervisor, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.comentario, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.comentario, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.comentario, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.obsevacion, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.obsevacion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.obsevacion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.id_calificacion, "id_calificacion", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("id_calificacion", null, htmlAttributes: new { @class = "form-control , selectpicker , data-style = btn-primary" })
+                      @Html.ValidationMessageFor(model => model.id_calificacion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.imagen, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.imagen, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.imagen, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.solucion, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.solucion, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.solucion, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            *@
+            <div class="form-group">
+                @*      @Html.LabelFor(model => model.acti_encargado, htmlAttributes: new { @class = "control-label col-md-2" })
+                *@    <div class="col-md-10">
+                    <div class="checkbox">
+                        @Html.EditorFor(model => model.acti_encargado, new { htmlAttributes = new { @class = "form-control", id = "acti" } })
+                        @Html.ValidationMessageFor(model => model.acti_encargado, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.acti_supervisor, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.acti_supervisor)
+                            @Html.ValidationMessageFor(model => model.acti_supervisor, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.aceptar, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.aceptar)
+                            @Html.ValidationMessageFor(model => model.aceptar, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            @*        <div class="form-group">
+                    @Html.LabelFor(model => model.cerrado, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.cerrado)
+                            @Html.ValidationMessageFor(model => model.cerrado, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+
+            @*
+                <div class="form-group">
+                    @Html.LabelFor(model => model.verificar, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.verificar)
+                            @Html.ValidationMessageFor(model => model.verificar, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            *@
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button class="btn btn-primary " type="submit" id="btn">
+                        <span class="glyphicon glyphicon-save-file pull-left" title="Create"> Create</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink(" Regresar", "Index", null, new { @class = "btn btn-info glyphicon glyphicon-circle-arrow-left", title = "Regresar!" })
+    </div>
+
+</div>
